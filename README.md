@@ -6,11 +6,15 @@ Short vertical videos (1080×1920, 9:16) for YouTube Shorts, Instagram Reels and
 
 ### Sample videos
 
+**Watch online (no GitHub account needed):** https://dogthathunts.github.io/reis-marketing/
+
+The Q&A version is the current draft. The single-voice versions are parked.
+
 `myrtle_beach/video/`:
 
 | File | Format | Voice(s) | Length |
 |---|---|---|---|
-| `myrtle_beach_teaser_qa.mp4` | Q&A | Bella (questions), Onyx (answers) | 35.6s |
+| `myrtle_beach_teaser_qa.mp4` | Q&A (**current draft**) | Anna = Bella (questions), George = Onyx (answers) | 38.5s |
 | `myrtle_beach_teaser_mono_af_heart.mp4` | Single voice | Heart (US female), **preferred single voice** | 29.3s |
 | `myrtle_beach_teaser_mono_af_bella.mp4` | Single voice | Bella (US female) | 28.7s |
 | `myrtle_beach_teaser_mono_af_sarah.mp4` | Single voice | Sarah (US female) | 28.9s |

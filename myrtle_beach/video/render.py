@@ -243,6 +243,7 @@ def frame_at(t):
     sp = (at(*sc['split']) - s0) / (e0 - s0) if 'split' in sc else .5
     ans = [k for k in sc['segs'] if SEGS[k]['style'] == 'a']
     a0 = (starts[ans[0]] - s0) if ans else 0
+    if 'answer_at' in sc: a0 = at(*sc['answer_at']) - s0   # data starts later than the answer (e.g. after a greeting)
     fr = HEADER.copy()
     SCENES[sc['scene']](fr, (t - s0) / (e0 - s0), t - s0, sp, a0)
     caption(fr, t)
