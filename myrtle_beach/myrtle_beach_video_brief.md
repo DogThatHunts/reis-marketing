@@ -67,6 +67,11 @@ Brand colours taken from the report: navy `#1B3A7A` and red `#C8282D`, on white.
 - **Voiceover, test version:** Kokoro-82M. It is free, runs on the Mac and its Apache 2.0 licence allows commercial use. For the final version, either the ElevenLabs Starter plan ($5/month, includes commercial rights) or keep Kokoro.
 - **Music:** a royalty-free track whose licence has been checked (candidate sources are listed in the chat).
 
+- **Pronunciation:** say REIS as letters, R-E-I-S (the voiceover text is written "R. E. I. S."). Say "DR Horton" with no pause between D and R (written "DR Horton" in the voiceover text; captions use the correct spelling "D.R. Horton").
+- **Single-voice version:** the preferred voice is `af_heart`.
+- **Q&A version (being tested):** Bella reads the intro ("This is the REIS New Homes Review for Myrtle Beach and Brunswick County") and asks the questions; Onyx answers with the data. Script: `video/scripts/qa.json`. Runs about 35.6s.
+- **Sharing:** private repo at github.com/DogThatHunts/reis-marketing.
+
 ## 6. Open questions
 
 1. Price in the voiceover: "$375K" (easier to hear) or the exact "$374,680"?
