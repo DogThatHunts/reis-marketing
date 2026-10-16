@@ -1,0 +1,25 @@
+{
+  "name": "qa",
+  "gap": 0.15,
+  "segments": [
+    {"voice": "af_bella", "text": "This is the R. E. I. S. New Homes Review for Myrtle Beach and Brunswick County.", "caption": ["This is the REIS New Homes Review", "for Myrtle Beach and Brunswick County."], "style": "q"},
+    {"voice": "af_bella", "text": "So, how's the market doing?", "caption": ["So, how's the market doing?"], "style": "q"},
+    {"voice": "am_onyx", "text": "New home sales slipped two percent nationally in August. Here? Up three.", "caption": ["U.S. new home sales slipped 2% in August.", "Here? Up 3%."], "style": "a"},
+    {"voice": "af_bella", "text": "How many homes have closed this year?", "caption": ["How many homes have closed this year?"], "style": "q"},
+    {"voice": "am_onyx", "text": "Over fifty-eight hundred, with average prices at three seventy-five.", "caption": ["Over 5,800,", "with average prices at $375K."], "style": "a"},
+    {"voice": "af_bella", "text": "Who's building them?", "caption": ["Who's building them?"], "style": "q"},
+    {"voice": "am_onyx", "text": "DR Horton leads with twenty-eight percent. The breakout is Logan Homes, up fifty-five percent.", "caption": ["D.R. Horton leads with 28%.", "The breakout is Logan Homes, up 55%."], "style": "a"},
+    {"voice": "af_bella", "text": "And the busiest community?", "caption": ["And the busiest community?"], "style": "q"},
+    {"voice": "am_onyx", "text": "Auberon Woods, with a hundred fifty-seven closings.", "caption": ["Auberon Woods, with 157 closings."], "style": "a"},
+    {"voice": "af_bella", "text": "Where do I get the full report?", "caption": ["Where do I get the full report?"], "style": "q"},
+    {"voice": "am_onyx", "text": "R. E. I. S. Myrtle Beach dot com. A hundred and twelve pages of data.", "caption": ["reis-myrtlebeach.com", "112 pages of data."], "style": "a"}
+  ],
+  "scenes": [
+    {"scene": "intro", "segs": [0]},
+    {"scene": "hook", "segs": [1, 2], "split": [2, 0.74]},
+    {"scene": "volume", "segs": [3, 4], "split": [4, 0.45]},
+    {"scene": "builders", "segs": [5, 6], "split": [6, 0.45]},
+    {"scene": "community", "segs": [7, 8]},
+    {"scene": "report", "segs": [9, 10]}
+  ]
+}
