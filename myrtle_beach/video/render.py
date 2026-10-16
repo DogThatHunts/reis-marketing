@@ -252,7 +252,7 @@ def frame_at(t):
 # ---------- encode ----------
 silent = OUT + '.video.mp4'
 ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}',
-                       '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', silent],
+                       '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-level', '4.2', '-crf', '18', silent],
                       stdin=subprocess.PIPE)
 for n in range(int(TOTAL * FPS)):
     ff.stdin.write(frame_at(n / FPS).convert('RGB').tobytes())
@@ -264,6 +264,8 @@ subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', silent, '-i', vo_pat
     f"[1:a]aresample=48000,volume=1.6,asplit[v1][v2];"
     f"[m][v1]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[md];"
     f"[md][v2]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
-    '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', OUT], check=True)
+    '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest',
+    '-movflags', '+faststart', '-f', 'mp4', OUT + '.tmp'], check=True)   # index up front for streaming/Quick Look
+os.replace(OUT + '.tmp', OUT)   # swap in atomically so an open player never sees a half-written file
 os.remove(silent)
 print(f'{OUT}  {TOTAL:.2f}s')
