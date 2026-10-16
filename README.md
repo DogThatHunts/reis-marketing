@@ -14,7 +14,7 @@ The Q&A version is the current draft. The single-voice versions are parked.
 
 | File | Format | Voice(s) | Length |
 |---|---|---|---|
-| `myrtle_beach_teaser_qa.mp4` | Q&A (**current draft**) | Anna = Bella (questions), George = Onyx (answers) | 42.3s |
+| `myrtle_beach_teaser_qa.mp4` | Q&A (**current draft**) | Anna = Bella (questions), George = Onyx (answers) | 42.8s |
 | `myrtle_beach_teaser_mono_af_heart.mp4` | Single voice | Heart (US female), **preferred single voice** | 29.3s |
 | `myrtle_beach_teaser_mono_af_bella.mp4` | Single voice | Bella (US female) | 28.7s |
 | `myrtle_beach_teaser_mono_af_sarah.mp4` | Single voice | Sarah (US female) | 28.9s |

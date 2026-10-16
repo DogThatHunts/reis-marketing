@@ -21,11 +21,11 @@
     },
     {
       "voice": "am_onyx",
-      "text": "Thanks Anna, here's the big picture. Nationally, new home sales slipped two percent in August. But, locally the market is actually up three percent year on year in August.",
+      "text": "Thanks Anna, here's the big picture. Nationally, new home sales slipped two percent in August. But, locally the market is actually up three percent year on year.",
       "caption": [
         "Thanks Anna, here's the big picture.",
         "U.S. new home sales slipped 2% in August.",
-        "But, locally the market is actually up 3% year on year in August."
+        "But, locally the market is actually up 3% year on year."
       ],
       "style": "a"
     },
@@ -56,10 +56,10 @@
     },
     {
       "voice": "am_onyx",
-      "text": "DR Horton leads with twenty-eight percent. But, the big breakout is Logan Homes, up fifty-five percent since last year.",
+      "text": "DR Horton leads with twenty-eight percent. But, the big breakout is Logan Homes, up fifty-five percent versus the same period last year.",
       "caption": [
         "D.R. Horton leads with 28%.",
-        "But, the big breakout is Logan Homes, up 55% since last year."
+        "But, the big breakout is Logan Homes, up 55% versus the same period last year."
       ],
       "style": "a"
     },
@@ -120,11 +120,11 @@
       ],
       "split": [
         2,
-        0.53
+        0.58
       ],
       "answer_at": [
         2,
-        0.25
+        0.27
       ]
     },
     {
@@ -146,7 +146,7 @@
       ],
       "split": [
         6,
-        0.32
+        0.28
       ]
     },
     {
