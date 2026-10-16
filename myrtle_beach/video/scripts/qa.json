@@ -89,12 +89,20 @@
     },
     {
       "voice": "am_onyx",
-      "text": "R E I S Myrtle Beach dot com. A hundred and twelve pages of data.",
+      "text": "R E I S Myrtle Beach dot com. A hundred and twelve pages of data, Anna.",
       "caption": [
         "reis-myrtlebeach.com",
-        "112 pages of data."
+        "112 pages of data, Anna."
       ],
       "style": "a"
+    },
+    {
+      "voice": "af_bella",
+      "text": "Thanks, George!",
+      "caption": [
+        "Thanks, George!"
+      ],
+      "style": "q"
     }
   ],
   "scenes": [
@@ -152,7 +160,8 @@
       "scene": "report",
       "segs": [
         9,
-        10
+        10,
+        11
       ]
     }
   ]
