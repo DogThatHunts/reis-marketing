@@ -21,11 +21,11 @@
     },
     {
       "voice": "am_onyx",
-      "text": "Thanks Anna, here's the big picture. Nationally, new home sales slipped two percent in August. Locally, the market is actually up three percent.",
+      "text": "Thanks Anna, here's the big picture. Nationally, new home sales slipped two percent in August. But, locally the market is actually up three percent year on year in August.",
       "caption": [
         "Thanks Anna, here's the big picture.",
         "U.S. new home sales slipped 2% in August.",
-        "Locally, the market is actually up 3%."
+        "But, locally the market is actually up 3% year on year in August."
       ],
       "style": "a"
     },
@@ -56,10 +56,10 @@
     },
     {
       "voice": "am_onyx",
-      "text": "DR Horton leads with twenty-eight percent. The breakout is Logan Homes, up fifty-five percent.",
+      "text": "DR Horton leads with twenty-eight percent. But, the big breakout is Logan Homes, up fifty-five percent since last year.",
       "caption": [
         "D.R. Horton leads with 28%.",
-        "The breakout is Logan Homes, up 55%."
+        "But, the big breakout is Logan Homes, up 55% since last year."
       ],
       "style": "a"
     },
@@ -89,7 +89,7 @@
     },
     {
       "voice": "am_onyx",
-      "text": "R E I S Myrtle Beach dot com. A hundred and twelve pages of data, Anna.",
+      "text": "R E I S Myrtle Beach dot com. One hundred and twelve pages of data, Anna.",
       "caption": [
         "reis-myrtlebeach.com",
         "112 pages of data, Anna."
@@ -120,11 +120,11 @@
       ],
       "split": [
         2,
-        0.66
+        0.53
       ],
       "answer_at": [
         2,
-        0.3
+        0.25
       ]
     },
     {
@@ -146,7 +146,7 @@
       ],
       "split": [
         6,
-        0.45
+        0.32
       ]
     },
     {
